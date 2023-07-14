@@ -1,0 +1,21 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tokens=swapr" clip-path="url(#clip0_288_16719)">
+<g id="Clip path group" style="mix-blend-mode:multiply">
+<mask id="mask0_288_16719" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="-1" width="24" height="25">
+<g id="clip0">
+<path id="Vector" d="M24 -0.181885H0V23.8181H24V-0.181885Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_288_16719)">
+<g id="Group">
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M0 15.9906V11.8181C0 5.19067 5.37255 -0.181885 11.9999 -0.181885C15.2688 -0.181885 18.2325 1.12522 20.3967 3.24529L17.8457 4.83933C16.2643 3.51319 14.2254 2.71465 11.9999 2.71465C6.97227 2.71465 2.89654 6.79039 2.89654 11.8181H5.79306L0 15.9906ZM6.11031 18.7596C7.69788 20.1081 9.75402 20.9215 12.0001 20.9215C17.0277 20.9215 21.1035 16.8458 21.1035 11.8181H18.207L23.9997 7.57675L24 11.8181C24 18.4455 18.6275 23.8181 12.0001 23.8181C8.71089 23.8181 5.73078 22.4947 3.56313 20.3513L6.11031 18.7596ZM16.6033 15.8008H13.293L12.0001 14.0542L10.7071 15.8008H7.3968L10.3957 11.8869L7.39653 7.83537H10.5L12.0001 9.79315L13.5002 7.83537H16.6037L13.6045 11.8869L16.6033 15.8008Z" fill="#5568F6"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_288_16719">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
