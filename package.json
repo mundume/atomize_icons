@@ -1,0 +1,27 @@
+{
+  "name": "atomizecode",
+  "version": "0.0.0",
+  "description": "react icons for the figma atomize design system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nzai kilonzo",
+  "license": "MIT",
+
+  "homepage": "https://github.com/$your_username/atomize_icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nzaih1999/atomize_icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nzaih1999/atomize_icons/issues"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "atomize design system"
+  ]
+
+}
