@@ -1,6 +1,6 @@
 {
   "name": "atomize_icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "react icons for the figma atomize design system",
   "main": "figma.config.js",
   "engines": {
