@@ -2,13 +2,17 @@
   "name": "atomize_icons",
   "version": "0.0.0",
   "description": "react icons for the figma atomize design system",
-  "main": "index.js",
+  "main": "figma.config.js",
+  "files": [
+    "output/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "figma:export-components": "figma-export components B6ieCNzkJYqoiSHeaofqYG -O @figma-export/output-components-as-svg",
+    "figma:export-styles": "figma-export styles B6ieCNzkJYqoiSHeaofqYG -O @figma-export/output-styles-as-sass",
+    "test": "node test.js"
   },
   "author": "nzai kilonzo",
   "license": "MIT",
-
   "homepage": "https://github.com/$your_username/atomize_icons#readme",
   "repository": {
     "type": "git",
@@ -22,6 +26,14 @@
     "svg",
     "react",
     "atomize design system"
-  ]
-
+  ],
+  "devDependencies": {
+    "@figma-export/cli": "^4.7.0",
+    "@figma-export/output-components-as-svg": "^4.7.0",
+    "@figma-export/output-styles-as-sass": "^4.7.0",
+    "@figma-export/transform-svg-with-svgo": "^4.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "np": "^8.0.4"
+  }
 }
