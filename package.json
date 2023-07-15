@@ -10,15 +10,19 @@
     "output/*"
   ],
   "scripts": {
-    "figma:export-components": "figma-export components B6ieCNzkJYqoiSHeaofqYG -O @figma-export/output-components-as-svg",
+    "clean": "rimraf components package styles  *.tgz",
+    "tgz": "rimraf *.tgz",
+    "figma:export-components": "figma-export use-config node --experimental-modules figma.config.mjs",
     "figma:export-styles": "figma-export styles B6ieCNzkJYqoiSHeaofqYG -O @figma-export/output-styles-as-sass",
-    "test": "node test.js",
+    "test": "node --experimental-modules test.mjs",
     "np": "np",
-    "release": "np"
+    "build": "npm run clean && npm run figma:export-components && npm run figma:export-styles",
+    "release": "npm run tgz np ",
+    "prepare": "husky install"
   },
   "author": "nzai kilonzo",
   "license": "MIT",
-  "homepage": "https://github.com/$your_username/atomize_icons#readme",
+  "homepage": "https://github.com/nzaih1999/atomize_icons#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nzaih1999/atomize_icons.git"
@@ -32,14 +36,22 @@
     "react",
     "atomize design system"
   ],
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
   "devDependencies": {
     "@figma-export/cli": "^4.7.0",
     "@figma-export/output-components-as-svg": "^4.7.0",
+    "@figma-export/output-components-as-svgr": "^4.7.0",
     "@figma-export/output-styles-as-sass": "^4.7.0",
     "@figma-export/transform-svg-with-svgo": "^4.7.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.3.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "np": "^8.0.4",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "prettier": "3.0.0",
+    "rimraf": "^5.0.1"
   }
 }
