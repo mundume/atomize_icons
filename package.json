@@ -17,7 +17,7 @@
     "test": "node --experimental-modules test.mjs",
     "np": "np",
     "build": "npm run clean && npm run figma:export-components && npm run figma:export-styles",
-    "release": "npm run tgz np ",
+    "release": "  np ",
     "prepare": "husky install"
   },
   "author": "nzai kilonzo",
