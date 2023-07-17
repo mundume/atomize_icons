@@ -24,7 +24,7 @@
     "build": "npm run clean && npm run figma:export-components && npm run figma:export-styles && npm run ",
     "lint": "prettier --write --ignore-unknown",
     "bundle": "rollup --config",
-    "release": "  np ",
+    "release": "np ",
     "prepare": "husky install"
   },
   "author": "nzai kilonzo",
