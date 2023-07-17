@@ -2,13 +2,13 @@ import fs from "fs";
 import path from "path";
 import $ from "cheerio";
 
-const directories = ["output/components/Icons", "output/components/Icons/icon"];
+const directories = ["src/Icons", "src/Icons/icon"];
 let errors = 0;
 
 directories.forEach((dir) =>
   fs.readdirSync(dir).forEach((file) => {
     const filePath = path.join(dir, file);
-    if (fs.statSync(filePath).isFile() && file !== "index.js") {
+    if (fs.statSync(filePath).isFile() && file !== "index.ts") {
       const viewBox = $.load(fs.readFileSync(filePath))("svg").attr("viewBox");
       if (!viewBox) {
         console.error(
