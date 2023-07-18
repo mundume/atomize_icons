@@ -2,12 +2,13 @@ import * as React from "react";
 import { SVGProps } from "react";
 const Lock = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    viewBox="0 0 24 24"
+    width={24}
+    height={24}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g fill="#4F4B5C">
+    <g fill="currentColor">
       <path d="M10.5 16v-3h3v3H13v2h-2v-2h-.5Z" />
       <path
         fillRule="evenodd"

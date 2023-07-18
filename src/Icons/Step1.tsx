@@ -2,19 +2,20 @@ import * as React from "react";
 import { SVGProps } from "react";
 const Step1 = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    viewBox="0 0 32 32"
+    width={32}
+    height={32}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     {...props}
   >
-    <rect width={32} height={32} rx={12} fill="url(#a)" />
+    <rect width={32} height={32} rx={12} fill="currentColor" />
     <circle
       cx={16}
       cy={23}
       r={3}
-      fill="#7357FF"
-      stroke="#7357FF"
+      fill="currentColor"
+      stroke="currentColor"
       strokeWidth={2}
     />
     <circle
@@ -22,8 +23,8 @@ const Step1 = (props: SVGProps<SVGSVGElement>) => (
       cx={24}
       cy={11}
       r={3}
-      fill="#7357FF"
-      stroke="#7357FF"
+      fill="currentColor"
+      stroke="currentColor"
       strokeWidth={2}
     />
     <circle
@@ -31,8 +32,8 @@ const Step1 = (props: SVGProps<SVGSVGElement>) => (
       cx={8}
       cy={11}
       r={3}
-      fill="#7357FF"
-      stroke="#7357FF"
+      fill="currentColor"
+      stroke="currentColor"
       strokeWidth={2}
     />
     <defs>
