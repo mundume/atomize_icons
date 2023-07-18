@@ -77,7 +77,9 @@ function App() {
 
 > ## Limitations
 >
-> There are some icons that are not rendering well due to limitations with SVGO and figma exports
+> There are some icons that are not rendering well due to limitations with SVGO and figma exports <br/>
+> Were Working Hard to add the paths manually and we will make the icons available soon
+
 > The icons include
 
 ```
@@ -110,4 +112,3 @@ function App() {
 
 ```
 
-> ## Were Working Hard to add the paths manually and we will make the icons available soon
