@@ -1,6 +1,6 @@
 {
   "name": "atomize_icons",
-  "version": "0.2.2-0",
+  "version": "0.2.3-0",
   "type": "module",
   "description": "react icons for the figma atomize design system",
   "main": "react/index.js",
