@@ -5,6 +5,7 @@
     "noImplicitAny": true,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "outDir": "react"
+    "outDir": "react",
+    "allowJs": true
   }
 }

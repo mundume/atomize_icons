@@ -2,7 +2,8 @@ import * as React from "react";
 import { SVGProps } from "react";
 const SelectWalletCoinbase = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    viewBox="0 0 24 24"
+    width={24}
+    height={24}
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
@@ -21,16 +22,16 @@ const SelectWalletCoinbase = (props: SVGProps<SVGSVGElement>) => (
       >
         <path
           d="M18.658 2H5.342A3.342 3.342 0 0 0 2 5.342v13.316A3.342 3.342 0 0 0 5.342 22h13.316A3.342 3.342 0 0 0 22 18.658V5.342A3.342 3.342 0 0 0 18.658 2Z"
-          fill="#fff"
+          fill="currentColor"
         />
       </mask>
       <g mask="url(#b)">
-        <path d="M2 2h20v20.052H2V2Z" fill="url(#c)" />
+        <path d="M2 2h20v20.052H2V2Z" fill="currentColor" />
         <path
           fillRule="evenodd"
           clipRule="evenodd"
           d="M5.139 12.004a6.94 6.94 0 1 0 13.879 0 6.94 6.94 0 0 0-13.88 0Zm5.166-2.236a.463.463 0 0 0-.463.462v3.547c0 .256.207.463.463.463h3.547a.463.463 0 0 0 .462-.463V10.23a.463.463 0 0 0-.462-.462h-3.547Z"
-          fill="#fff"
+          fill="currentColor"
         />
       </g>
     </g>
@@ -43,11 +44,15 @@ const SelectWalletCoinbase = (props: SVGProps<SVGSVGElement>) => (
         y2={22.052}
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#2E66F8" />
-        <stop offset={1} stopColor="#124ADB" />
+        <stop stopColor="currentColor" />
+        <stop offset={1} stopColor="currentColor" />
       </linearGradient>
       <clipPath id="a">
-        <path fill="#fff" transform="translate(2 2)" d="M0 0h20v20H0z" />
+        <path
+          fill="currentColor"
+          transform="translate(2 2)"
+          d="M0 0h20v20H0z"
+        />
       </clipPath>
     </defs>
   </svg>

@@ -27,15 +27,26 @@ module.exports = {
             plugins: [
               {
                 name: "preset-default",
+
                 params: {
                   overrides: {
-                    removeViewBox: false,
+                    removeViewBox: true,
                   },
                 },
               },
               {
-                name: "removeDimensions",
+                name: "addAttributesToSVGElement",
                 active: true,
+              },
+              {
+                name: "convertColors",
+                params: {
+                  currentColor: true,
+                },
+              },
+              {
+                name: "removeDimensions",
+                active: false,
               },
             ],
           }),

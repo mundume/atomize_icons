@@ -2,7 +2,6 @@ export { default as Add } from "./src/Icons/icon/Add";
 
 export { default as Close } from "./src/Icons/icon/Close";
 export { default as Stepper } from "./src/Icons/icon/Stepper";
-export { default as None } from "./src/Icons/icon/None";
 export { default as Play } from "./src/Icons/icon/Play";
 export { default as Resizer } from "./src/Icons/icon/Resizer";
 export { default as SwapHor } from "./src/Icons/icon/SwapHor";
