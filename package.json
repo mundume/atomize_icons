@@ -9,7 +9,8 @@
   },
   "files": [
     "react/index.js",
-    "react/index.d.ts"
+    "react/index.d.ts",
+    "react/src *"
   ],
   "peerDependencies": {
     "react": ">= 16"
