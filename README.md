@@ -14,13 +14,13 @@ npm i atomize_icons
 
 example usage
 
-```jsx/tsx
+```jsx
 import { About } from "atomize_icons";
 
 function App() {
   return (
     <h1>
-      What are you talking  <About /> ?
+      What are you talking <About /> ?
     </h1>
   );
 }
@@ -35,18 +35,21 @@ function App() {
 
 ## ie using the react `style prop`
 
-```
+```jsx
 import { About } from "atomize_icons";
+
 function App() {
   return (
-   <About  style={{background: 'red', margin:'2px;}}/>
+    <h1>
+      <About style={{ color: "red" }} />
+    </h1>
   );
 }
 ```
 
 ## Using Vanilla css/sass/scss
 
-```
+```jsx
 src/index.css
 .style: {
 color:red;
@@ -65,14 +68,11 @@ function App() {
 
 > To use tailwind-css you must configure tailwindcss with react [here](https://tailwindcss.com/docs/guides/create-react-app)
 
-```
+```jsx
 import { About } from "atomize_icons";
 function App() {
-  return (
-   <About className='text-yellow-400'/>
-  );
+  return <About className="text-yellow-400" />;
 }
-
 ```
 
 > ## Limitations
@@ -82,8 +82,7 @@ function App() {
 
 > The icons include
 
-```
-
+```tsx
  <SelectWalletMetamask />
  <SelectWalletWalletConnect />
 <SelectWalletVenly />
