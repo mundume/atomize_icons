@@ -4,19 +4,19 @@ const fileId = process.env.FILE_ID;
 /** @type {import('@figma-export/types').FigmaExportRC} */
 module.exports = {
   commands: [
-    [
-      "styles",
-      {
-        fileId: fileId,
-        // version: 'xxx123456', // optional - file's version history is only supported on paid Figma plans
-        // onlyFromPages: ['icons'], // optional - Figma page names (all pages when not specified)
-        outputters: [
-          require("@figma-export/output-styles-as-sass")({
-            output: "./src/styles",
-          }),
-        ],
-      },
-    ],
+    // [
+    //   "styles",
+    //   {
+    //     fileId: fileId,
+    //     // version: 'xxx123456', // optional - file's version history is only supported on paid Figma plans
+    //     // onlyFromPages: ['icons'], // optional - Figma page names (all pages when not specified)
+    //     outputters: [
+    //       require("@figma-export/output-styles-as-sass")({
+    //         output: "./src/styles",
+    //       }),
+    //     ],
+    //   },
+    // ],
     [
       "components",
       {
@@ -38,12 +38,7 @@ module.exports = {
                 name: "addAttributesToSVGElement",
                 active: true,
               },
-              {
-                name: "convertColors",
-                params: {
-                  currentColor: true,
-                },
-              },
+
               {
                 name: "removeDimensions",
                 active: false,
