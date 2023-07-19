@@ -10,7 +10,7 @@
   "files": [
     "react/index.js",
     "react/index.d.ts",
-    "react/src *"
+    "react/src"
   ],
   "peerDependencies": {
     "react": ">= 16"
