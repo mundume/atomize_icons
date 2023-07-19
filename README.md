@@ -1,5 +1,7 @@
 ## [Atomize Icons](https://www.npmjs.com/package/atomize_icons)
 
+### >`Atomize_icons` are only available for react right now.We'll be bringing `atomize_icons` to `vanilla js` and other frameworks soon
+
 Icons in your React projects easily with `atomize_icons`, From the most popular open source figma design system [Atomize Design System](<https://www.figma.com/file/3RuiLTOo9hbOoir4Pih85Z/Atomize-3.0-(Community)?type=design&node-id=1033-19838&mode=design&t=5j77olwtcDiaDrBX-0>)
 
 ## Installation (for standard react modern project)
@@ -75,38 +77,5 @@ function App() {
 }
 ```
 
-> ## Limitations
->
-> There are some icons that are not rendering well due to limitations with SVGO and figma exports <br/>
-> Were Working Hard to add the paths manually and we will make the icons available soon
 
-> The icons include
 
-```tsx
- <SelectWalletMetamask />
- <SelectWalletWalletConnect />
-<SelectWalletVenly />
-<SelectWalletBitski />
-<SelectWalletCoinbase />
-<SelectNetworkEthereum />
-<SelectNetworkOptimism/>
-<SelectNetworkGnosis />
-<SelectTokenWbtc />
-<SelectTokenUsdt />
-<SelectTokenUsdc />
-<SelectTokenAda />
-<SelectTokenMatic />
-<SelectTokenArbitrum />
-<SelectTokenWeth />
-<SelectToken1inch />
-<SelectTokenUni />
-<SelectTokenTel />
-<SelectTokenLink />
-<SelectTokenEth />
-<SelectTokenDai />
-<SelectTokenBusd />
-<SelectTokenAave />
-<IconSuccess />
-<IconFail />
-
-```
