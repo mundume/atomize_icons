@@ -30,7 +30,7 @@ function App() {
 
 # CSS SUPPORT
 
-> All css properties except properties that may lead to increase in Icon size like `font-size` etc
+> All css properties are supported by default except properties that may lead to increase in Icon size like `font-size` etc but you can use `scale` to resize the icons
 > The reason why we chose not to include sizing is to keep the styles uniform across the whole design system
 >
 > > we are planning to implement the atomize design system for react next
